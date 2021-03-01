@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="اسم الشركة"
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/cardback"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:id="@+id/textFieldBoxes6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="نشاط الشركة "
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/cardback"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_Activity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:id="@+id/textFieldBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="حالة الشركة"
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/cardback"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_Status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:id="@+id/textFieldBoxes2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="رأس المال"
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/cardback"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_Capital"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:id="@+id/textFieldBoxes3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="عدد الأسهم"
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/cardback"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_NumOfStock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:id="@+id/textFieldBoxes4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="سعر السهم"
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/cardback"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_StockPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+
+                <com.developer.mtextfield.TextFieldBoxes
+                    android:id="@+id/textFieldBoxes7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:endIcon="@drawable/ic_baseline_account_circle_24"
+                    app:labelText="الغرامات"
+                    app:maxCharacters="20"
+                    app:panelBackgroundColor="@color/material_on_primary_emphasis_medium"
+                    app:secondaryColor="@color/darkblue"
+                    app:textCounterColor="#FFFFFF">
+
+                    <com.developer.mtextfield.ExtendedEditText
+                        android:id="@+id/TXT_CO_Fees"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/darkblue"
+                        android:textStyle="normal" />
+
+                </com.developer.mtextfield.TextFieldBoxes>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
