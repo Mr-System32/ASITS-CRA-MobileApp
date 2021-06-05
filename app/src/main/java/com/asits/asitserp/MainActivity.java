@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MenuChangThemes(1);
-                // setFragment(new NewsFragment());
+                 setFragment(new MainFragment());
                 drawer.closeDrawers();
 
             }
@@ -467,7 +467,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //            }
 //        });
-        setFragment(new MainFragment());
+        setFragment(new SignInFragment());
     }
 
     public void LOGOUT() {

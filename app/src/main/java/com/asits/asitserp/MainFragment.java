@@ -122,7 +122,7 @@ public class MainFragment extends Fragment {
         super.onResume();
         SetDisplay();
         SetDisplayNew();
-        AppNumber.setText(App_ID);
+        AppNumber.setText(AppNum);
     }
 
 
@@ -299,7 +299,7 @@ public class MainFragment extends Fragment {
                     "        <ProcessPara>\n" +
                     "          <Name>ASI04_Application_ID</Name>\n" +
                     "          <Type></Type>\n" +
-                    "          <Value>" + "1000018" + "</Value>\n" +
+                    "          <Value>" +   CO_Application_ID   + "</Value>\n" +
                     "        </ProcessPara>\n" +
                     "      </Param>\n" +
                     "    </RunProcess>\n" +
